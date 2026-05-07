@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: transparent;
+}
+
+a:link {
+    color: black;
+    text-shadow: 0 0 3px #FE0033;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+a:active {
+    color: yellow;
+}
