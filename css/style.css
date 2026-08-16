@@ -1,7 +1,13 @@
-body, h1, h2, h3, h4, h5, h6, p {
-    background-color: black;
+body {
+    background-color: #24272C;
     color: white;
     text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 footer {
@@ -25,4 +31,15 @@ a:hover {
 
 a:active {
     color: yellow;
+}
+
+.button {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
 }
